@@ -47,5 +47,10 @@
 cmake_minimum_required(VERSION 2.8)
 #add_subdirectory(mod1)                # <- new
 #add_subdirectory(mod2)                # <- new
+#
+#execute_process( 外部コマンドを呼び出す
+#        COMMAND make -f exec_flex.mak 
+#        WORKING_DIRECTORY lex)
+#
 add_executable(Main main.cpp)
 add_definitions("-Wall -std=c++11") 
