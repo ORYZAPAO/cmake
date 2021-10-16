@@ -7,6 +7,5 @@ rm CMakeCache.txt \
 
 rm -rf \
    */CMakeFiles \
-   */CMakeLists.txt \
    */cmake_install.cmake
 
