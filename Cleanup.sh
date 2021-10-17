@@ -1,11 +1,13 @@
 #!/bin/sh
 make clean 
-rm CMakeCache.txt \
-   -rf CMakeFiles \
-   Makefile \
-   cmake_install.cmake
 
-rm -rf \
-   */CMakeFiles \
-   */cmake_install.cmake
+rm -rf CMakeFiles
+rm     Makefile 
+rm     CMakeCache.txt 
+rm     cmake_install.cmake
 
+##rm     */CMakeLists.txt 
+rm -rf */CMakeFiles
+rm     */Makefile 
+rm     */CMakeCache.txt 
+rm     */cmake_install.cmake
